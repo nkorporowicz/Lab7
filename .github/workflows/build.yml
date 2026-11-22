@@ -1,7 +1,7 @@
 name: Build .NET project
 
 on:
-    workflow_dispatch
+    workflow_dispatch:
 
 env:
     DOTNET_VERSION: 10.0.x
